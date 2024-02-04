@@ -1,23 +1,42 @@
-﻿using System;
-using System.IO;
-using System.Xml.Serialization;
-using System.Text.Json; //add json namespace
+﻿// using System;
 
-namespace Complex
-{
+// public class Complex{
+//     // public int Real{get;}
+//     public int Imaginary{get;}
 
-    class Program
-    {
+//     public double Modulus => Math.Sqrt(Real * Real + Imaginary * Imaginary);
+//     public double Argument => Math.Atan2(Imaginary, Real);
+//     public Complex(int real, int imaginary)
+//     {
+//         Real = real;
+//         Imaginary = imaginary;
+//     }
 
-      
+//     public static Complex operator +(Complex a, Complex b){
+//         return new Complex(a.Real +b.Real, a.Imaginary + b.Imaginary);
 
-        static void Main(string[] args)
-        {
-            
+//         public static Complex operator -(Complex a, Complex b){
+//             return new Complex(a.Real - b.Real, a.Imaginary - b.Imaginary);
+//         }
+//     }
+
+//     public static Complex operator *(Complex a, Complex b){
+//         return new Complex(a.Real * b.Real - a.Imaginary * b.Imaginary, a.Real * b.Imaginary +)
+
+
+// }
 
 
 
 
-        }
-    }
-}
+// class Program{
+
+//     static void Main(string[] args)
+//     {
+     
+     
+     
+//     }
+
+
+// }
